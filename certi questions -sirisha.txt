@@ -1,0 +1,60 @@
+1.acroym for RITM - Requested Item
+2.If a table abc is created, what is its name: u_abc
+3.Global search is located at - banner
+4.impersonate key - image
+5.use of impersonate key - login as diff users without logout
+6.application navigator displays application to user based on ?? roles
+7.which one of the following can help user to do changes to his homepage
+a.switch to b.add content c.change layout Ans) a
+8.Which one of the following will allow to change his workflow
+a.service catalog item b.order guide c.graphic workflow editor Ans)c
+9.wof module will visible for ESS user 
+a)open record b)requetsed items c)tasks d)requests 
+10.homepage icon usage
+11.BSm map definition
+12)if u click on bsm map icon wer will be the business service located - business service located in the middle and configuration that are affected by will be in downstream and upstream
+12.wat all can we customize...table,form,view,field
+13)field ,operator,value
+14)column is a field in a table and row is record in the table
+15.How to change the banner backgroun color -- 
+banner and list caption background color ,change the color,save and refresh the page
+16.submit buttn will be visible for only new record
+17.SSo use....same in book
+18.when a incident record is saved wat will happen --- iam not sure(impact will be updated)
+19.relationship between task and incident (3 questions in different ways)
+22.delegate def
+23.performance of homepage - refresh rate is off or high
+24.clientscript and biz rule difference
+25.order guide -use
+26.wat is acl? contextual security
+27.knowledge base heirarchy - topic,category,article
+28.form buttons,lists buttons  - ui actions
+29.which will move to new merged updateset when we merge more than 3 updateset which are having updates on same script
+20.how to load data from new excel to snow table
+load data,create tlransform map,run transformmap
+30.retroactive sla use?
+31.what will knowledge base manager do?
+32.what will contextual manager do?
+33.lazy manager approval
+34.how to configure ur system to notify u that upgrade is completed - create a notification named as System Upgraded and give the user name to whom it should send
+35.Inbound email action can do? van update the task fields or it can create a new task
+36.one field level and one column level - both should be true in access control
+37.wat will not capture in an update set - new records in a table,new cis,schedule
+38.Sla for every task record is saved in Ans: task sla.
+39.updates will not reflect if the workflow is not published
+40.question on rollback acitivity
+41.workflow definition - given in the book
+42.service catalog variable are flagged as global by default
+43.how to change the prefix of incident record- number maintenance
+44.how can we access knowledge base on homepage - news
+45.wat all we can see in content page - lists,service catalog,bsm map,schema map
+46.wer can we see gauges - homepages
+47.module to see table and field structures - tables and columns (one option is dictionary also)
+48.more than 2 groups assigned to one users - he will get roles from all the assigned groups
+49.using service catalog wat all can we order - record producers,order guides etc
+50.common thing we are using in creating a new incident,resettinf pwd,repoting printer outage (a.using record producer b.changing system proprty c.using clien script d.ui policy)
+51.service catalog homepage will give acces to orderguides,maintain items,record producers
+52.cmdb defi again but diff options(abut tangible and intangible devices)
+53.can one task record point to one cmdb_ci or more...true/false
+54.one - to -many relationship - user- task
+55.

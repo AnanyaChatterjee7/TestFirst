@@ -1,0 +1,266 @@
+30JUNE-2015 SNOW Questions Answers
+
+Q.1 Which section of the ServiceNow  GUI contains the global search feature?
+
+ a>List pane
+ b>Lower navigation bar
+ c> Banner(Correct Answer)
+ d> Application Navigator
+
+ Q2. Which one of the following includes a quick way an approval manager can approve a service catalog request?
+ a>In the request list, right-click the REQ Number and select Approve Request.(Correct Answer).
+ b>In the Catalog tasks list, right-click the task Number and select Approve.
+ c>In the catalog tasks form, select Approve from the State field drop-down list.
+ d> On the requested Item form, select Approve from the request field drop-down list.
+
+Q3. Which one of the Following statements describe the purpose of a Service Catalog Workflow?
+ a>	The Service catalog workflow is used to drive complex fulfillment processes and sends notifications to defined users or groups.
+ b>	The Service catalog workflow generates three basic components: item variable types,tasks, and approvals.(Correct Answer)
+ c>	The Service catalog workflow generates three basic components: item variable types,tasks, and notifications.
+ d>	Although a service catalog workflow cannot send notifications, the workflow drives complex fulfillment processes.
+
+Q4. What do you mean by group??
+Answer : it is a record in sys_user_group table.
+
+Q5. What do you mean by Role?
+Answer : it is record in Sys_user_role table.
+
+Q.6. what do you mean by user?
+A-> it is a record in sys_user table.
+
+Q.7 Which of the following is Core tables in ServiceNow?
+A-> users(sys_user) & Task table- remember cmdb_ci is also core table but it was not given in option.
+
+Q8.which of the following is a list of what the Service catalog contains??
+
+a->order Guides, catalog items and interceptors
+b->catalog items, Asset Contracts, Task Surveys
+c->Order Guides, Exchange rates, Calenders
+d-> record producers,order guides and Catalog Items(Correct Answer)
+
+Q.9 In an Incident form, which one of the following isa n example of a UI policy??
+
+a-> Export field data from list.
+b->Add a module to an application.
+c->makea priority field read-only(Correct answer)
+d->Export field data from a from.
+ 
+Q.10 New records, new records and modified configurations items(CIs): what is they have in common?
+
+a. they are included in an update Set.
+b. they are Customizations.(either this)
+c. they do not have anything in common.
+d. they are not captured in an update set.(either this)
+
+at some places it is written that it is not a customization and some place it is Customizations..
+
+check these links:
+ https://quizlet.com/45264126/service-now-admin-course-flash-cards/
+http://www.plug2learn.com/ServiceNow-training.html
+
+
+
+
+
+Q.11. In the Application navigator, how is the list of applications determined??
+
+a. the list of applications is determined by the service level agreements(SLAs).
+b. Every user has all the applications and uses filtering to end and access applications.
+c. the list of applications is but according to the roles that have been assigned to the user.(correct answer)
+d. the department manager assigns applications to each user in the department.
+
+
+note : in exam question was.. if some applications are missing for a user ..what could be the possible reason for that. Answer is users do not have right role .
+
+remember : Applications are visible in ServiceNow according to role assign to user.
+
+Q.12 which of the following is an correct list of changes that are captured in an update set?
+
+a. changes made to" tables,forms,business rules and data records.
+b. changes made to : table,forms,views,fields(correct answer).
+c. changes made to: tables,forms,Schdules,and client scripts
+d. changes made to: tables,groups,and configurations items(CIs).
+
+Q.13 when a user Customize a homepage, the system makesa copy of the homepage and..??
+
+a. renames me homepage with the name of the user.
+b. adds a "My" prefix to the homepage name(Correct answer)
+c. Does not change anything
+d. Maintains the homepage name
+
+Q.14 which one of the following statements is correct when when referring to UI Actions?
+
+a. UI Actions on the task table are not available to its extended tables.
+b. UI Actions are only executed on the Server.
+c. Ui Actions cannot use Scripts or be Scripted.
+d. Conditions can be speciified to determine when a Ui Action appers.(Correct Answer)
+
+Q.15.When an Event triggers??n or used for triggering an event??
+ choose two option.
+answer 1) Bussiness rule  2) Workflow
+
+Q.16. When an Event triggers?? or used for triggering an event??
+ choose 3 option
+answer 1) Script 2) Bussiness rule  3)Workflow
+     
+
+Q.17  The Graphical Workflow Editor is used to drive delivery of a service catalog order; what are the three basic components to generate and assign?
+
+a. Approvals
+b. Notifications
+c. Tasks
+
+Q.18 Which of the following is varibale type(Service catalog)?
+a.  Multiple Choice, Single Line Text, and Select Box, check box-(check box was given in question)-out of these 4 options 3 was given
+
+Oredered and Number list- these are not types of variable.
+
+Q.19 True or False - 
+It is best practice to never make changes to an update set in the Default update set.  True.
+
+remember..According to Servicenow, global update set should not moved to another instance.
+
+Q.20. How can you check which version ServiceNow instance you are using??
+
+A-> system disgnostics->Stats-> Stats-(here u will find version and build name)
+
+Q.21. question on workflow.. answer was
+ users have same role to  can make changes in workflow..so workflow is checkout first and then edited(1 users at a time make a changes in workflow)
+
+Q.22 ? What are the benefits of using groups? 
+choose 4 options
+
+a. Permissions and Access - Simplified ability to assign permissions
+b. Identifies a subset of users for role and skill assignment
+c. Provide a reference for alerts and notifications
+d. Email notifications 
+
+Q.23 What are the possible import sources?
+A- CSV,Excel,XML
+
+Q.25 A horizontal display of filter conditions showing the hierarchy of the conditions used to display the form or list results.
+
+A-> Breadcrumb
+
+Q.26 ? 
+? ? What is the the high security plugin in Service Now?
+
+High security creates a security_admin elevated privilege role. 
+The elevated privilege role is manually assigned and not inherited from any role. The elevated privilege only exists during current session.
+
+--Accessed from System Security > High Security Settings: 
+
+
+Q.27 ACL is part of which security?
+
+A) Physical Security  B) Compliance Security  C) Contextual Security  D) None of the above 
+
+anser- c) contextual security
+
+Q.28 Which among the following is true regarding ACLs?
+
+A->If there are row and field ACLs, user has to satisfy both to have access to the field.
+
+Q.29 What is a Transform Map in ServiceNow?
+
+A-> A map to determine relationships between fields displaying in an Import Set to fields in an existing table .
+remember: we can import data into all tables of Service now.(not only in incident,problem,user,requested item table but to all the tables present in Servicenow).
+
+Q.30  Change in gear icon effect all users- false
+
+
+
+Q.31  how can you enable and disable an application --- right click on application->edit menu application-> check or unckeck Active Checkbox.
+
+Q.32  service catalog ordering seQuence -- A->  REQ>RITM>TASK-- their was two question on it.
+
+Q.33  if two merged update sets are modifing the same object which will get updated in update set--
+     A-> the latest update gets precedance
+
+Q.34- ACL applies on?
+ A- row,field, table--choose according to option.
+
+Q.35 Filter are defined with following attributes in Service Now
+ 
+
+ A) Field name, operator and Value.(correct answer) 
+ B) Variables, Operator and Values.  
+C) Operands, Operator and Values
+
+Q.36 .parent table for incident,problem,change??
+task table
+
+Q.37. How do you edit/ create a workflow?
+A) Graphical Workflow Editor (Correct answer)
+ B) Vi-Editor 
+ C) Paintshop 
+ D) XML Editor 
+
+Q.38 -Question on sys_id---
+is a unique 32 character Globaly Unique ID (GUID) used to indentify a record. All tables have it but it may not show in all tables. 
+
+
+Q.39- Which one on homepage will access knowledge?
+A) News  B) Catalog item  C) Report  D) All
+
+Anwer- a)news
+
+
+Q.40 What controls enable admins to set mandatory and read only states for fields and can be used to enforce data consistence across applications?
+
+Answer- Data policy.
+
+Q.41..Question on delegate...
+What is the Delegate? 
+A delegate is another user in the instance designed to receive and interact with approvals and tasks assigned or sent to you. 
+
+
+Q.42 Question on definition of BSM map
+
+What is a business service map (bsm)? 
+business service map graphically displays the configuration items that compose a business service and indicates the status of those configuration items. 
+
+
+Q.43 Question on Pause SLA condition
+answer : it depend on SLA pause condition..tricky one..whatever condition we give SLA pause .
+
+Q.44.. Question on Plugin?
+
+Answer->it provide additional functionality 
+
+Q.45 Question on Knowledge--answer is Publish article..after it is published it is visible to  all.
+
+Q.46.Question on Event registry
+
+Q.47 question on service catalog item---answer is maintain item
+
+Q.48. 
+If a request is rejected what happens?
+
+ A-> notification is sent and sets the status to cancelled
+
+
+Q.49..question on client transaction??
+
+
+Q.50. what does SaaS stands for??
+
+software as a service
+
+Q.51. What are the different types of UI actions?
+ // Form buttons,Form context menu items,Form links,List buttons,List context menu items,List choices,List links 
+
+
+Q.52 What is the difference between client scripts and business rules?
+ // client : runs on browser side onload,onsubmit,onchange,oncelledit,BR : runs on application server and database BEFORE/AFTER. 
+
+
+Q.53 How to make a UI Policy global? 
+// checking the global field on UI policy form. 
+
+Q.54
+2. steps to import new data from the spreadsheet 
+//Load Data -> Transform map -> run transform
+
+Q.55 if you personalize form and move fields from selected to available in the slushbucket will they appear on the form?
+// no

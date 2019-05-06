@@ -1,0 +1,30 @@
+List is type of report? T/F
+Different bwt ui policy and Dakta policy
+Difference bwt insert and save.
+difference bwt insert and update
+what admin can do with workflow
+upgrade instance--notification
+roles will inherit another role
+task table 
+extended table will exten all fields/BR/Client Script
+
+task table
+questions on ACL
+what is common bwt New record,new group--there all are customization
+breathcrumiable item type,task and approval/notification
+sys_user table
+
+var
+role base question--admin,ess,Itil
+feild operator and value,
+types of variable,
+32-bit
+search options for live feed,navigation list?
+function of application navtigaors
+stores in tables,
+ACL-feils, colums and table
+catalogs items-2 questions
+update set-defaullt should not be selected/when moving version
+should be different
+merger of update set
+what are options available for live feed-chat,notification,not open/closed incident

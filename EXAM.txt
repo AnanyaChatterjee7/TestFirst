@@ -1,0 +1,207 @@
+What is a metric?
+Metrics measure data over time to show past history.
+ A metric is used to measure and evaluate the effectiveness 
+of IT Service Management process.
+
+ --An example of a metric is that it could measure the 
+effectiveness of the incident resolution process by 
+calculating how long it takes to resolve an incident.
+ --Metrics are viewed in SN by going to Metrics > Definitions
+
+What are the types of metrics?
+
+a. Field value duration - measures a time interval 
+from when a value in a field is achieved until it is changed.
+b. Script calculation - creates a metric instance using script.
+The script does calculations and inserts data into the metric 
+table [metric_instance]. Using a script calculation gives 
+you additional leverage to capture and record data.
+
+What are some of the ways the knowledge base is populated?
+a. Manually - by creating news articles
+ b. Automatically - from events or from an incident or task
+ --You can develop a business rule that generates a news item
+ c. Importing existing articles
+ d. From the Service Catalog using a record producer
+ e. From an existing problem record,
+ --The problem application plugin has a workarounds feature
+
+What is a Record producer and how does it relate to the 
+Service Catalog?
+A record producer provides a user-friendly alternative to the regular form interface. Record producers populate record data using variables and scripts
+ --They ask users a series of questions to assist in the request process.
+ --This assists them in providing correct and relevant information on forms.
+ --They provide a single point of entry to create an incident or request.
+
+What role allows users to define catalog items?	
+Catalog_admin
+
+True or False -
+An update set is a "point in time" XML snapshot of the record?
+True. An update set works by writing changes from tracked tables to the customer updates table [sys_update_xml)
+
+By default in Service Now, what customizations are added to Update Sets?
+Changes made to a form are included in an Update Set. 
+Changes made to data, a schedule, or a homepage are not included.
+
+
+True or false - 
+Update sets should not be deleted.
+True. Deleting update sets is not recommended for three reasons:
+ i. It does not undo the updates made to the set
+ ii. It removes any record of who applied customization's to any instance
+ iii. Next upgrade, customizations will be over written
+
+
+What are UI Policies?	
+UI policy is client side business rules.
+Examples of UI policy - by qualification or criterion
+ i. Make a Close Notes field mandatory
+ ii. Hide the Opened by field
+ iii. Make the Priority, Severity, and Urgency fields read-only
+ iv. Run a client script that displays an alert message	
+
+
+
+What are UI Actions?	
+UI Actions are an easy way to put buttons, links, and context menu items on forms and lists, making the UI more interactive, customizable, and specific to user activities. 
+
+ These buttons, links, and context menu items can be scripted, making them more powerful.
+ UI Actions include:
+ 1. Form buttons
+ 2. Form context menu items (right-click the header)
+ 3. Form links (Related Links in a form)
+ 4. List buttons
+ 5. List context menu items (right-click a record)
+ 6. List choices (at the bottom of a list)
+ 7. List links (Related Links at the bottom of a list)
+ ii. UI actions are given access via permission
+
+
+What is a Business Rule?
+A business rule is a piece of JavaScript configured to run (perform an action) when a record is displayed, inserted, updated, deleted, or when a table is queried. 
+
+ A business rule can be set to run before or after the database action has occurred. 
+ In the case of a query, the business rule runs before the database operation, so that the data returned to the user is appropriate to their system privileges (user roles). 
+
+ A typical business rule might execute a script after a user updates an incident or escalates the priority of a change request. Use a business rules to create new events for email notification and script actions.
+
+What is a Workflow?	
+A workflow is a virtual representation of tasks consisting of connected steps planned out in a sequential manner. Workflows are tracked in the sc_request table
+
+ For each step in the workflow, an activity is processed
+ --The behavior is determined when the activity begins
+ --Workflows provide a summary of workflow progress by updating any field designated as a stage field.	
+
+
+What are 3 ways to attach workflows to particular requests?	
+a. Manually on the catalog item form
+ b. Automatically based on condition
+ c. Automatically if there are no other workflows
+
+
+
+Once a Service Catalog Request is submitted, what workflow stages does the request go to?	
+a. Waiting for approval
+ b. Fulfillment
+ c. Delivery
+ d. Completed
+ e. Request Cancelled	
+
+
+The Graphical Workflow Editor is used to drive delivery of a service catalog order; what are the three basic components to generate and assign?
+a. Approvals
+ b. Notifications
+ c. Tasks
+
+ --ANT	
+
+What are common Out of the Box places where workflows are commonly seen in Service Now?	
+a. Routine Changes
+ b. Emergency Changes
+ c. Service Level Agreements (SLA)	
+
+On the schema map Green means?	
+Are tables that have been extended by the table you're viewing
+
+On the schema map Blue means?	
+Are tables that are extending the table you're viewing
+
+On the schema map Red means?
+Are tables that are "referenced by" the table you're viewing	
+
+
+Key Metrics to baseline and Monitor
+Memory
+ Responce Time
+ Available Semaphores (Control the number of user transaction that run in parallel)
+
+
+What Happens if a row level rule and a field level rule are in conflict.
+Both Rules must be met before an operation is allowed - 
+Example would be a rule that allows access to a column 
+and a rule that denies access to row. First rule has no effect. access denied.
+
+
+
+
+
+Access control are evaluated from?
+the specific to general, allowing access only 
+if all conditions evaluate to true. Evaluating independently all conditions.
+
+
+
+
+What is the major difference between Business Rules and Client Scripts?	
+Business rules apply consistently to records regardless of how their accessed 
+client Scripts only apply when editing through a form.Business Rules are NOT real time.
+
+
+On the schema map Orange means?	
+this is the table that you're currently referencing.
+
+
+what are the six ways to populate the CMDB?
+1. Discovery, an automated service now product. 
+ 2. Import sets. 
+ 3. Integrate with external CMDB's. 
+ 4. Web services. 
+ 5. Help the helpdesk from with in in ServiceNow. 
+ 6. Manual input	
+
+
+what is a workflow activity?	
+it is a work flow block that organizes the individual actions of the workflow performs as it runs.
+
+
+
+
+workflow activities include:
+Approvals - (which allow workflows to generate and manage approvals while driving a record to fulfillment. )
+ Conditions - (which are activities available for a workflow. )
+ Notifications - (which allow workflows to notify users of the events
+ that occurred during the workflow. )
+ Tasks - (which create and modify task. These activities are only 
+available when the workflow is defined to run on the table which extends tasks.)
+ Timers - (which positive workflow for a set period of time. )
+ Utilities -( which provide useful controls over the path of the workflow, and other useful tools.)	
+
+
+What is Dot-Walking?	
+Dot-Walking can get information from a series of reference fields from different tables:
+
+
+
+What is Contextual Security
+allows you to secure a record based on its contents, with the simple security manager,
+ you could secure fields and tables by adding roles to the appropriate dictionary entry.	
+
+
+
+
+
+
+Retroactive start when activated does what?	
+When activated, works with the Set Start to field and 
+calculates the start time to equal when the incident was created	

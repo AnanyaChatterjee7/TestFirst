@@ -1,0 +1,47 @@
+1) service catalog homepage contains link to which of the following
+they gave some options like record producers order guides u please check answer in instance
+
+2) update set definition
+
+3) acl are which type of security- contexual security
+
+4) Change in gear icon effect all users- false
+
+5) inbound email action can be used to -- modify the existing records
+
+6) how can you enable and disable an application 
+
+7) when there is a conflict in row level acl rule and column level then both should satisfy
+
+8) bsm map usage root node is at center 
+
+9) user definition - (users are stored in sys_user table)
+
+10)group definition -(stored in sys_user_group )
+
+11) what are metrics i.e., metrics definition
+
+12) groups in live feed-- public private unlimited
+
+13) ui14 homepage elements 
+
+14) what gets skipped during a major upgrade? 
+   record altered from base state
+
+15) client scripts and business rules differance
+
+16) if two merged update sets are modifing the same object which will get updated in update set
+    the latest update gets precedance
+
+17) what does transactions log do
+
+18) most common way of generating an event
+    business rules and workflows
+
+19) how many sla's can be applied to a recored in task 
+
+20) service catalog ordering seQuence -- REQ>RITM>TASK
+
+21) when customizations are added to homepage it gets saved as ''MYHomepage''
+
+22) where does ui action run at?
