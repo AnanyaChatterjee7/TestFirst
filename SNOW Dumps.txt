@@ -1,0 +1,89 @@
+Name three interfaces for viewing and manipulating tables?
+Ans.Record list view,Schema map,Tables and Columns module
+
+Q.What stores structure and relationship definitions? 
+Ans.Data Dictionary
+
+Q.What three tables provide Data Dictionary and relationship information?
+Ans.Sys_dictionary,sys_documentation,sys_db-object
+
+Q.What is the CI relationship table?
+Ans. cmdb_rel_ci
+
+Q.List Benefits of CMDB?
+Ans.Locate failed changes and associate incidents
+Facilitate quick analysis of impact, helping reduce or eliminate downtime
+cost savings 
+
+Q.What is a BSM map?
+Ans.Business Service Map graphically displays the CIs that 
+compose a biz service and indicates status.
+
+Q.What are the 3 levels of Access?
+Ans.System (username/pw)/Applications and Modules (Roles)/Tables
+and Fields (System Properties/Access Control).
+
+Q.What is the sequencing of publishing an Knowledge Article?
+Ans.Draft>>Review>>Publish
+
+Q.Name 4 ways the Knowledge Base can be populated? 
+Ans.Manually
+From the Service Catalog with a Record Producer
+Automatically from events
+From existing Incidents or Tasks
+
+Q.What is the Knowledge base hierarchy?
+Ans.Topics>>categories>>Articles
+
+Q.What are the three release types?
+Ans.Future,Patch,HotFix
+
+Q.What are the four major components that power SLA?
+Ans.SLA Definition/Task SLA
+SLA Workflow
+SLA Automation (Business Rule and scheduled job) 
+
+Q.Name the 6 workflow activities?
+Ans.Approvals
+Conditions
+Notifications
+Tasks
+Timers
+Utilities
+
+Q.What table is used to track changes in an update set?
+Ans.Customer Update sys_update_xml table 
+
+Q.What cannot be customized with update sets?
+New Records/New users and groups/Modified data/Schedules
+
+Q.Sn can integrate with any solution that uses one of the following 5 techniques
+Ans.Unencrypted http browser, digest token authentication, SAML 1.1 browser POST file, 
+SAML 2.0 web browser SSO profile stateless Open ID with signature verification
+
+Q.What are the SN provided roles?
+Ans.System administrator, fulfiller, requester, approvers
+
+Q.What does the ITIL fulfiller role have access to?
+Ans.ITIL activities associated with the itil workflow
+
+Q.What does the skills plugin allow you to do?
+Ans.You can assign competences to groups or individuals.
+
+Q.What type of db is sn built on?
+Ans.MySql
+
+Q.What does a db table contain?
+Ans. Records
+
+Q.What does a db record contain?
+Ans. Fields
+
+Q.What is a db field? 
+Ans.It's a column in the record. It's where you store individual pieces of data
+
+Q.How does a table organize data?
+Ans.By rows, records and fields 
+
+Q.What are the 3 most common extended tables off of cmdb?
+Ans.Sys_user, sys_user_group, kb_knowledge

@@ -1,0 +1,80 @@
+
+1. Acronym for RITM- Requested Item
+
+2. If a table abc is created what is the sys name-u_abc
+
+3. Application Navigator displays application based on the roles
+
+4. If you click on BSM Map CI Icon will be in the Center and upstream and downstream will be on either sides
+
+5. what are all customizable? Table, Forms, Views, Fileds.
+
+6. Filter- Field, Operator, Value
+
+7. Column is a field in a table and record is a row in the table.-Tables organized
+
+8. Submit buttons is visible during the creation of a new record
+
+9. SSO- Single Sign On-some ques
+
+10. What will happen when an incident record is saves- Priority will be calculated based in Urgency and Impact.
+
+11. Ques on Delegate-easy 1
+
+12. Relationship btwn Incident and Task
+
+13. Relationship btwn Incident, Problem, Change with Task
+
+14. Performance of Home Page- Refresh rate off
+
+15. Difference between Client Script & Business Rule- 2 options will look alike. Read it carefully. Client scripts can be done on Load, on change and on submit. That is the option
+
+16. Order guide -Use
+
+17. What is ACL- used in Contexutal Security
+
+18. Ques on Retroactive Start- Read the options carefully-provides the ability for sla to start from a specified event
+
+19. Ques on Contextual manager-little confusing. Ans is something to do with Attachments
+
+20. Ques on what does Inbound email action do
+
+21. One rule in row level and one rule in column level- both shud be true
+
+22. WF definition
+
+23. Sla for a task is in task_sla table
+
+24. SC variables- global setting ques
+
+25. KB can be accessed using News from Homepages
+
+26. in Tables & Columns mobules what will be visible- Tables names, Field Names and Field attributes
+
+27. UI action -condition field wat is the use- to make the ui action visible
+
+28. cmdb definition- tangible and intangible business assets
+
+29. some que on req item-ans maintain item
+
+30. reference icon -identify-magnifying glass icon
+
+31. que on coalesce field- it will update if a match is found
+
+32. what is impersonate func used for- for testing purpose
+
+33. difference between save & insert- save stays on the same page. insert goes out
+
+34. if a homepage is customized then the name is prefixed with "My"
+
+35. based on the no of seats arrange the order of roles- ess, itil, deletegated admin, admin
+
+36. 1 que on update set- was very tricky. options was so confusing. ans- something which says upgrades to the existing customzations
+
+37. SC home page-Order guide, record producer, catalog items,
+
+38. Some ques on baseline update set
+
+39. some ques on default update set
+
+40. To make KB articles visible even when logged of make it public.

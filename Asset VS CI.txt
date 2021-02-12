@@ -1,0 +1,60 @@
+WHAT IS AN ASSET?
+
+In general, asset records are used for financial and contractual tracking. The asset lifecycle starts with a request and ends with the asset’s 
+disposal or salvage. Assets tend to deal with financial, procurement and inventory, consumption and disposal, depreciation, contracts 
+and licenses and entitlement Information and answer questions such as:
+
+What is the current value?
+When is the maintenance contract due?
+Do I need to reorder?
+What is the physical location?
+Is the software usage over-subscribed?
+
+WHAT IS A CI?
+
+On the other hand, CIs represent the operational configuration aspect of a hardware item, software license or business service 
+and their relationship(s) to each other.CIs are referenced from Incidents, Problems and Change Requests. 
+The CI lifecycle starts when the item becomes operational and ends when it is taken out of service. 
+As such, we look at CIs to answer questions such as:
+
+How is the CI used?
+Who is the business or maintenance owner for the CI?
+Are there Incidents, Change requests or Problem records related to the CI?
+Is the CI’s relationship to other CIs, including business service(s), supported?
+Is the CI related to a customer satisfaction survey?
+
+So, when you’re identifying if an item should be treated as an asset, CI or both you can use the following to help:
+
+It’s an asset if:
+
+You care about tracking the item’s purchase, cost, depreciation, etc.
+Documenting the service status, end-of-life and/or destruction is required
+There are associated contracts such as maintenance, warranty, license, etc.
+Inventory tracking is expected
+It’s a CI if:
+
+It supports a business service
+It may be associated with an Incident, Problem or Change record
+You need to know the item’s relationship to other items
+Ultimately, how you determine if something should be treated as an asset, CI or both is, in large part, determined by how you identify, track and use the item.
+
+Another area that people find it difficult to differentiate is a configuration item and an asset. Some of us feel that both are same.
+I will focus this post on key differences between the two.
+
+Asset has a financial value along with a depreciation rate attached to it. 
+IT assets are just a sub-set of it. Anything and everything that has a cost and the organization uses it for its asset value calculation
+and related benefits in tax calculation falls under Asset Management, and such item is called an asset. Asset's life is for duration till 
+its financial value becomes 'Zero', which depends on the associated depreciation rate. There is no relationship between assets.
+
+Configuration Item or CI on the other hand may or may not have financial values assigned to it.
+It will not have any depreciation linked to it. Thus, its life would not be dependent on its financial value 
+but will depend on the time till that item becomes obsolete for the organization. CI has a relationship. 
+So from a CI all information on subsequent parent and child CIs can easily be obtained. Also, CI is restricted to items specific for use in live IT environment.
+
+Let’s take an example that can easily signify the similarity and differences:
+1) Similarity:
+Server - It is both an asset as well as a CI.
+
+2) Difference:
+Building - It is an asset but not a CI.
+Document - It is a CI but not an asset. 

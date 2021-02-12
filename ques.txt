@@ -1,0 +1,20 @@
+1. Which is refers to deliver of solution stack
+a. PaaS b. Saas etc. ans: a
+
+2. Performance of home page
+3. ESS user can able to see?
+a. open record, requested item module
+b. request, req item and task module
+c. req, req item module
+
+3. things can be ordered from SC
+a. record producer, order guide, services
+b. record producer, order guide, maintain item 
+
+4.what is field and record?
+a. field is one piece of data and record is one row
+b. field s one user and record is one row
+c. field s more than user and record is one row
+
+5. contextual security manager related quest. 
+6.  what is knowledge base manager do?
